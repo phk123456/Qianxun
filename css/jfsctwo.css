@@ -1,0 +1,135 @@
+/*
+* @Author: hp
+* @Date:   2019-08-15 10:37:30
+* @Last Modified by:   hp
+* @Last Modified time: 2019-08-15 10:40:45
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: #4d5b64;
+}
+li{
+	list-style: none;
+}
+h2{
+	color: #040015;
+}
+h4{
+	color:#414e5c;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	box-shadow: 1px 5px 10px 1px #999;
+}
+.headerimg{
+	width: 245px;
+	height: 40px;
+	background-image: url('../images/sprite.png');
+	background-position: -25px 5px;
+	float: left;
+	margin:20px 120px;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: 100px;
+}
+.header p a{
+	width: 200px;
+	line-height: 97px;
+	float: left;
+	text-align: center;
+}
+.header p:nth-of-type(3) a{
+	border-bottom: 3px solid orangered;
+}
+.header p:nth-of-type(3) a{
+	color: orangered;
+}
+.nav{
+	width: 1026px;
+	height: 990px;
+	margin: 10px auto;
+}
+.one{
+	margin: 50px;
+}
+.one h2{
+	margin-bottom: 10px;
+}
+.two{
+	margin: 50px;
+}
+.two .h2{
+	margin-bottom: 10px;
+}
+.three{
+	margin: 50px;
+}
+.three .h2{
+	margin-bottom: 10px;
+}
+
+
+.four table{
+	border-collapse: collapse;
+	border: 1px solid #d7dce3;
+	margin: 10px auto;
+}
+.four table th{
+	background-color: #e4e7eb;
+}
+.four table th,td{
+	height: 50px;
+}
+.four table th:nth-child(1){
+	width: 150px;
+}
+.four table th:nth-child(2){
+	width: 150px;
+}
+.four table th:nth-child(3){
+	width: 150px;
+}
+.four table th:nth-child(4){
+	width: 350px;
+}
+.four table td{
+	text-align: center;
+	border-bottom:1px solid #d7dce3 ;
+}
+
+
+
+.five h2{
+	margin-left: 110px;
+	margin-top: 30px;
+}
+.five table{
+	border: 1px solid #d7dce3;
+	border-collapse: collapse;
+	margin: 5px 110px;
+}
+.five table th,td{
+	height: 50px;
+}
+.five table th{
+	background-color: #e4e7eb;
+	width: 150px;
+}
+.five table td{
+	text-align: center;
+	border-bottom: 1px solid #d7dce3;
+}
+.six{
+	margin-top:30px ;
+	margin-left: 108px;
+}
+.six p{
+	font-size: 10px;
+	color: #b3afac;
+}

@@ -1,0 +1,373 @@
+/*
+* @Author: hp
+* @Date:   2019-08-15 10:23:46
+* @Last Modified by:   hp
+* @Last Modified time: 2019-08-15 10:29:59
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: #4d5b64;
+}
+li{
+	list-style: none;
+}
+body{
+	background-color: #f6f8fa;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	box-shadow: 1px 5px 10px 1px #999;
+}
+.headerimg{
+	width: 245px;
+	height: 40px;
+	background-image: url('../images/sprite.png');
+	background-position: -25px 5px;
+	float: left;
+	margin:20px 120px;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: 100px;
+}
+.header p a{
+	width: 200px;
+	line-height: 97px;
+	float: left;
+	text-align: center;
+}
+.header p:nth-of-type(2) a{
+	border-bottom: 3px solid orangered;
+}
+.header p:nth-of-type(2) a{
+	color: orangered;
+}
+.nav{
+	width: 1026px;
+	height: 1015px;
+	margin: 10px auto;
+}
+.one{
+	width: 100%;
+	height: 300px;
+}
+.oneleft{
+	width: 280px;
+	height: 300px;
+	float: left;
+	box-shadow: 3px 3px 20px 3px #999;
+	background-color: #fff;
+}
+.oneleft button{
+	width: 120px;
+	height: 40px;
+	background-color: #ff5f19;
+	border-radius: 8px;
+	color: #fff;
+	margin-top: 80px;
+	margin-left: 76px;
+	margin-bottom: 30px;
+	font-size: 15px;
+}
+.oneleft p{
+	text-align: center;
+	margin: 30px;
+	color: #8da3b3;
+}
+.oneleft p a{
+	text-decoration: none;
+	color: #ff5911;
+}
+.lunbotu{
+	width: 740px;
+	height: 300px;
+	float: right;
+	position: relative;
+	overflow: hidden;
+}
+.lunbotu ul{
+	width: 9999px;
+	position: relative;
+	left: 0px;
+}
+.lunbotu ul li{
+	float: left;
+}
+.lunbotu ul li img{
+	width: 740px;
+	height: 300px;
+}
+span{
+	width: 30px;
+	height: 60px;
+	cursor: pointer;
+	padding: 2px 2px;
+	position: absolute;
+}
+.left{
+	background-image: url('../images/sprite.png');
+	background-position: 303px 643px;
+	left: 10px;
+	top: 130px;
+}
+.right{
+	background-image: url('../images/sprite.png');
+	background-position: 300px 578px;
+	right: 10px;
+	top: 130px;
+}
+
+
+.two{
+	width: 100%;
+	height: 300px;
+	margin: 20px 0px;
+	box-shadow: 1px 5px 10px 1px #999;
+	overflow: hidden;
+	background-color:#fff ;
+}
+.twoshang{
+	width: 100%;
+	margin: 10px 0px 10px 20px;
+}
+.two p{
+	display: inline-block;
+}
+.twoshang p:nth-of-type(1){
+	background-image: url('../images/sprite1.png');
+	background-position: 287px 84px;
+	width: 18px;
+	height: 20px;
+}
+.twoshang p:nth-of-type(2){
+	font-size:18px;
+	color:  #425766;
+}
+.twoxia{
+	margin: 10px 150px;
+	overflow: hidden;
+	display: inline-block;
+}
+.xiayi{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 20px;
+}
+
+.xiayi p{
+	display: inline-block;
+}
+.xiayi p:nth-of-type(1){
+	color: #425766;
+	font-size: 30px;
+	position: absolute;
+	top: 25%;
+	right: 33%;
+}
+.xiayi p:nth-of-type(1)>a{
+	color: #425766;
+	font-size: 50px;
+}
+.xiayi p:nth-of-type(2){
+	font-size: 10px;
+	color: #425766;
+	position: absolute;
+	bottom: 20%;
+	left: 37%;
+}
+.xiayi p:nth-of-type(3){
+	font-size: 10px;
+	color: #425766;
+	position: absolute;
+	bottom: 10%;
+	left: 32%;
+}
+.xiayi p:nth-of-type(4){
+	font-size: 8px;
+	color: #425766;
+	width: 15px;
+	line-height: 12px;
+	border-radius: 50%;
+	border: 1px solid #425766;
+	padding-left: 4px;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+.xiaer{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 20px;
+}
+.xiaer p{
+	display: inline-block;
+}
+.xiaer p:nth-of-type(1){
+	color: #425766;
+	font-size: 30px;
+	position: absolute;
+	top: 25%;
+	right: 33%;
+}
+.xiaer p:nth-of-type(1)>a{
+	color: #425766;
+	font-size: 50px;
+}
+.xiaer p:nth-of-type(2){
+	font-size: 10px;
+	color: #425766;
+	position: absolute;
+	bottom: 20%;
+	left: 37%;
+}
+.xiaer p:nth-of-type(3){
+	font-size: 10px;
+	color: #425766;
+	position: absolute;
+	bottom: 10%;
+	left: 32%;
+}
+.xiaer p:nth-of-type(4){
+	font-size: 8px;
+	color: #425766;
+	width: 15px;
+	line-height: 12px;
+	border-radius: 50%;
+	border: 1px solid #425766;
+	padding-left: 4px;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+.xiasan{
+position: relative;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 20px;
+}
+.xiasan p{
+	display: inline-block;
+}
+.xiasan p:nth-of-type(1){
+	color: #425766;
+	font-size: 30px;
+	position: absolute;
+	top: 25%;
+	right: 33%;
+}
+.xiasan p:nth-of-type(1)>a{
+	color: #425766;
+	font-size: 50px;
+}
+.xiasan p:nth-of-type(2){
+	font-size: 10px;
+	color: #425766;
+	position: absolute;
+	bottom: 20%;
+	left: 37%;
+}
+.xiasan p:nth-of-type(3){
+	font-size: 10px;
+	color: #425766;
+	position: absolute;
+	bottom: 10%;
+	left: 32%;
+}
+.xiasan p:nth-of-type(4){
+	font-size: 8px;
+	color: #425766;
+	width: 15px;
+	line-height: 12px;
+	border-radius: 50%;
+	border: 1px solid #425766;
+	padding-left: 4px;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+.three{
+	width: 100%;
+	height: 300px;
+	margin: 20px 0px;
+	box-shadow: 1px 5px 10px 1px #999;
+	overflow: hidden;
+	background-color:#fff ;
+}
+.ding{
+	overflow: hidden;
+}
+.wifi{
+	background-image: url('../images/sprite1.png');
+	background-position: 287px 16px;
+	width: 18px;
+	height: 20px;
+	margin: 15px 10px;
+}
+.ding p{
+	float: left;
+}
+.ding p:nth-of-type(2){
+	font-size: 18px;
+	color: #425766;
+	margin: 10px 0px 15px 10px;
+}
+.ding p:nth-of-type(3){
+	width: 100px;
+	line-height: 50px;
+	text-align:center ;
+	border-bottom: 2px solid #b0daf9;
+}
+.ding p:nth-of-type(3) a{
+	color: #90b9ee;
+}
+.ding p:nth-of-type(4){
+	width: 100px;
+	line-height: 50px;
+	text-align:center ;
+}
+.ding p:nth-of-type(5){
+	width: 100px;
+	line-height: 50px;
+	text-align:center ;
+}
+
+.shijian ul:nth-child(1){
+	width: 800px;
+	height: 2px;
+	background-color: #969fad;
+	float: left;
+	margin:100px 0% 10px 12%;
+}
+.shijian ul:nth-child(1) li{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: skyblue;
+	list-style: none;
+	float: left;
+	margin: -2px 36px;
+}
+.shijian ul:nth-child(2){
+	width: 805px;
+	float: left;
+	margin: 0px 10%;
+}
+.shijian ul:nth-child(2) li{
+	float: left;
+	margin: 0px  26.5px;
+	font-size: 10px;
+	color: #969fad;
+}
